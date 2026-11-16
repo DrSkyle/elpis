@@ -84,6 +84,7 @@ This repository contains the open-source on-chain contracts, client SDKs, and ma
 - **$0.0002 per standard API call** after the free monthly allowance (`$0.002` per settled payment decision).
 - **Refused, blocked, or held calls are always $0.00** — safety rules never cost money when they trigger.
 - **Zero custody of your funds:** On-chain vaults (`LazarusVault.sol`) are deployed and controlled by your own wallet. Elpis never holds private keys that can move your funds and never takes a percentage fee on your payments.
+- **Self-Hosted Operator Builds (Private VPC):** While the on-chain contracts and SDKs in this repository are MIT-licensed, the full Elpis control-plane server and web console repository is private. Teams and funds that need to run the full Elpis control plane inside their own private cloud/VPC can purchase an isolated **Operator Build** (verified offline via an Ed25519 `LICENCE_KEY` with zero phone-home) by contacting [`support@devilabs.dev`](mailto:support@devilabs.dev).
 
 ---
 
